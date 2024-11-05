@@ -1,6 +1,7 @@
 import { Suspense } from "react";
 import CabinList from "../_components/CabinList";
 import Spinner from "../_components/Spinner";
+import Filter from "../_components/Filter";
 
 export const revalidate = 3600;
 
@@ -8,7 +9,10 @@ export const metadata = {
   title: "Cabins",
 };
 
-export default async function Page() {
+//searchParams are only available here in the page.js file (and others page.js), pass the data from client to server component
+export default function Page({ searchParams }) {
+  const filter = searchParams?.capacity ?? "all";
+
   return (
     <div>
       <h1 className="text-4xl mb-5 text-accent-400 font-medium">
@@ -26,8 +30,12 @@ export default async function Page() {
       {/* We apply Suspense here, because the above paragraph is independent of the
       data fetching for cabins */}
 
-      <Suspense fallback={<Spinner />}>
-        <CabinList />
+      <div className="flex justify-end mb-8">
+        <Filter />
+      </div>
+
+      <Suspense fallback={<Spinner />} key={filter}>
+        <CabinList filter={filter} />
       </Suspense>
     </div>
   );
