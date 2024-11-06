@@ -8,6 +8,12 @@ const authConfig = {
       clientSecret: process.env.AUTH_GOOGLE_SECRET,
     }),
   ],
+  callbacks: {
+    authorized({ auth, request }) {
+      //this !! convert it in boolian
+      return !!auth?.user;
+    },
+  },
 };
 
 export const {
