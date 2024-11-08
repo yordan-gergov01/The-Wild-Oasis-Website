@@ -33,9 +33,19 @@ function DateSelector({ settings, cabin, bookedDates }) {
   const { minBookingLength, maxBookingLength } = settings;
 
   return (
-    <div className="flex flex-col justify-between">
+    <div className="flex flex-col justify-between bg-primary-900 text-accent-500 p-4 rounded-lg">
       <DayPicker
-        className="pt-12 place-self-center"
+        classNames={{
+          day: "p-2 text-center hover:bg-accent-500 hover:text-white rounded-lg",
+          selected: "bg-accent-500 text-primary-900 rounded-lg",
+          range_start: "bg-accent-500 text-primary-900 rounded-l-lg",
+          range_end: "bg-accent-500 text-primary-900 rounded-r-lg",
+          range_middle: "bg-accent-500 text-primary-900",
+          month: "flex flex-col items-center",
+          caption: "text-accent-500 font-semibold mb-4",
+          nav_button_previous: "text-accent-500 hover:text-accent-400",
+          nav_button_next: "text-accent-500 hover:text-accent-400",
+        }}
         mode="range"
         onSelect={setRange}
         selected={displayRange}
