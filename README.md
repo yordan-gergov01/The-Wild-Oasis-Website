@@ -73,13 +73,15 @@ This project is designed with flexibility, scalability, and maintainability in m
 To set up the project locally, follow these steps:
 
 1. Clone the repository:
-   git clone https://github.com/yordan-gergov01/The-Wild-Oasis-Website.git
-cd The-Wild-Oasis-Website
 
-2. Install dependencies:
+   git clone https://github.com/yordan-gergov01/The-Wild-Oasis-Website.git
+   cd The-Wild-Oasis-Website
+
+3. Install dependencies:
+
    npm install
 
-3. Environment Variables:
+5. Environment Variables:
 
 - **Create a .env file with the following variables:**
   - SUPABASE_URL
