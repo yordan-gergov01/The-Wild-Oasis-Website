@@ -17,18 +17,6 @@ The Wild Oasis is a modern and seamless booking platform for hotel customers, de
   - Google OAuth integration for secure, streamlined login and account creation.
   - Access control allows only registered users to view, book, or manage reservations.
 
-
-![The Wild Oasis Website 1](https://github.com/user-attachments/assets/7f8986ea-2c5d-4518-8487-f426660c0349)
-![The Wild Oasis Website 2](https://github.com/user-attachments/assets/c7ab2bca-fcc0-4121-b728-894f35cf6f3f)
-![The Wild Oasis Website 3](https://github.com/user-attachments/assets/8da2c22f-3c1e-450f-8493-343953443372)
-![The Wild Oasis Website 4](https://github.com/user-attachments/assets/2ac84221-0821-40af-9492-48e3c02413b0)
-![The Wild Oasis Website 5](https://github.com/user-attachments/assets/c6328086-adbb-4649-8fe3-601a445037f4)
-![The Wild Oasis Website 6](https://github.com/user-attachments/assets/9b0e3759-3d08-497e-937f-02c63c00e789)
-![The Wild Oasis Website 7](https://github.com/user-attachments/assets/c09503bf-493d-4863-9d8f-132e03f2f5f1)
-![The Wild Oasis Website 8](https://github.com/user-attachments/assets/79e4af23-b4b4-43b9-b443-da98cacd206f)
-![The Wild Oasis Website 9](https://github.com/user-attachments/assets/375bc8af-4cb1-49e3-88d0-6492a39a7b0b)
-
-
 - **Cabin Information and Gallery:**
   - Dynamic cabin pages display detailed descriptions, high-quality images, and pricing for each option.
   - Interactive availability check enables users to easily browse cabin options.
@@ -39,6 +27,16 @@ The Wild Oasis is a modern and seamless booking platform for hotel customers, de
 
 - **Responsive Multi-Page Navigation:**
   - Clearly defined navigation paths, allowing users to effortlessly switch between pages, including the home, cabins, reservations, and account settings.
+
+![The Wild Oasis Website 1](https://github.com/user-attachments/assets/7f8986ea-2c5d-4518-8487-f426660c0349)
+![The Wild Oasis Website 2](https://github.com/user-attachments/assets/c7ab2bca-fcc0-4121-b728-894f35cf6f3f)
+![The Wild Oasis Website 3](https://github.com/user-attachments/assets/8da2c22f-3c1e-450f-8493-343953443372)
+![The Wild Oasis Website 4](https://github.com/user-attachments/assets/2ac84221-0821-40af-9492-48e3c02413b0)
+![The Wild Oasis Website 5](https://github.com/user-attachments/assets/c6328086-adbb-4649-8fe3-601a445037f4)
+![The Wild Oasis Website 6](https://github.com/user-attachments/assets/9b0e3759-3d08-497e-937f-02c63c00e789)
+![The Wild Oasis Website 7](https://github.com/user-attachments/assets/c09503bf-493d-4863-9d8f-132e03f2f5f1)
+![The Wild Oasis Website 8](https://github.com/user-attachments/assets/79e4af23-b4b4-43b9-b443-da98cacd206f)
+![The Wild Oasis Website 9](https://github.com/user-attachments/assets/375bc8af-4cb1-49e3-88d0-6492a39a7b0b)
  
 
 ## Technology stack
