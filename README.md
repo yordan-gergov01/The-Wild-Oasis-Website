@@ -75,6 +75,7 @@ To set up the project locally, follow these steps:
 1. Clone the repository:
 
    git clone https://github.com/yordan-gergov01/The-Wild-Oasis-Website.git
+
    cd The-Wild-Oasis-Website
 
 3. Install dependencies:
